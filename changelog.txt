@@ -1,0 +1,11 @@
+Custom Book Author Changelog
+
+v2.0:
+
+>>> General:
++ Added the ability to change book titles using a written book named "Title". Supports titles as long as a book page.
+
+v1.0:
+
+>>> General:
++ Added the ability to change the author of a signed book, by holding a written book named "Author" in the offhand
