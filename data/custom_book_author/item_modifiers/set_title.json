@@ -1,7 +1,21 @@
 [
   {
     "function": "copy_nbt",
-    "source": { "type": "storage", "source": "minecraft:qm.cba_book_title" },
-    "ops": [{ "source": "title", "target": "title", "op": "replace" }]
+    "source": {
+      "type": "storage",
+      "source": "minecraft:qm.cba_book_title"
+    },
+    "ops": [
+      {
+        "source": "title",
+        "target": "title",
+        "op": "replace"
+      },
+      {
+        "source": "title",
+        "target": "filtered_title",
+        "op": "replace"
+      }
+    ]
   }
 ]

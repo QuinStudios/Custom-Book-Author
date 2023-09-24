@@ -1,7 +1,16 @@
 [
   {
     "function": "copy_nbt",
-    "source": { "type": "storage", "source": "minecraft:qm.cba_book_author" },
-    "ops": [{ "source": "author", "target": "author", "op": "replace" }]
+    "source": {
+      "type": "storage",
+      "source": "minecraft:qm.cba_book_author"
+    },
+    "ops": [
+      {
+        "source": "author",
+        "target": "author",
+        "op": "replace"
+      }
+    ]
   }
 ]
